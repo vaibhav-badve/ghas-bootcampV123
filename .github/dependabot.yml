@@ -7,7 +7,7 @@ updates:
     labels:
       - "triage-required"
     assignees:
-      - "dungeonstechlead"
+      - "shubhasismathur"
     reviewers:
       - "shubhasismathur"
     commit-message:
