@@ -98,3 +98,10 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+        output: code-scanning-results
+    - name: Upload SARIF as a Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: sarif
+        path: code-scanning-results
+        retention-days: 7 
