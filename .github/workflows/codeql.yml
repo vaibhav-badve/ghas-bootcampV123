@@ -106,6 +106,3 @@ jobs:
         name: sarif-${{ matrix.language }}-${{ github.run_id }}-${{ github.run_number }}
         path: code-scanning-results
         retention-days: 7
-
-        path: code-scanning-results
-        retention-days: 7 
